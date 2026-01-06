@@ -28,5 +28,11 @@ public class AdditionTest {
         assertEquals(5, addition.add(0,5));
     }
 
+    @Test
+    public void testAddNegativeNumbers(){
+        Addition addition = new Addition();
+        assertEquals(-9, addition.add(-3,-6));
+    }
+
    }
 
